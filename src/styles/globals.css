@@ -6,3 +6,9 @@
   font-family: "burtons";
   src: url('../../public/Burtons.otf');
 }
+
+@layer components {
+  .link{
+    @apply cursor-pointer hover:underline
+  }
+}
